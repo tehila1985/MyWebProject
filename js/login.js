@@ -25,5 +25,5 @@ const resetBtn = document.querySelector("#resetBtn");
     resetBtn.addEventListener("click", () => {
     localStorage.setItem("players", JSON.stringify([]));
     localStorage.removeItem("currentUser");
-    alert("המערכת אופסה בהצלחה!");
+    alert("המערכת אופסה בהצלחה!!");
 });
