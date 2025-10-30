@@ -1,0 +1,136 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   
+  align-items: center; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/backk.jpg);   
+}
+.card:hover {
+  border: solid rgb(255, 255, 255) 7px;
+}
+.zioon{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: 600;       
+  line-height: 1;        
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #fff;              
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.card{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 5px;
+}
+.home {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/picc.png);
+  cursor: pointer;
+}
+
+.taimer {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  z-index: 1000;
+  height: 40px;
+  width: 60px;
+  background-color: rgba(52, 57, 67, 0.575);
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: 600;       
+  line-height: 1;        
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #fff;              
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
+}
+.heceroot{
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  z-index: 1000;
+  height: 100px;
+  width: 80px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  font-weight: 600;       
+  line-height: 1;        
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #fff;              
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
+}
+.winn {
+  position: absolute;
+  top: 25vh;
+  bottom: 25vh;
+  right: 25vw;
+  left: 25vw;
+
+  z-index: 1000;
+  height: 50vh;
+  width: 50vw;
+
+  background-color: rgba(39, 43, 52, 0.575);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+
+  color: #fff;
+  font-size: xx-large;
+  font-weight: 600;       
+  line-height: 1;        
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+}
+
+.board{
+  height: 97%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: rgba(0,0,0,0.3);
+ border-radius: 10px;
+ justify-content: center; 
+  align-content: center; 
+}
+   
